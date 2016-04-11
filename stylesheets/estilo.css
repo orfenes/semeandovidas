@@ -1,0 +1,38 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+/* line 1, ../sass/_partial/menu.scss */
+.navbar-default {
+  background-color: #f96237;
+  font-family: "Open Sans";
+  margin-top: 100px;
+}
+@media (min-width: 768px) {
+  /* line 9, ../sass/_partial/menu.scss */
+  .navbar-default .container li {
+    width: 220px;
+    text-align: center;
+  }
+}
+/* line 17, ../sass/_partial/menu.scss */
+.navbar-default .container li {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+/* line 21, ../sass/_partial/menu.scss */
+.navbar-default .container li a {
+  color: #fff;
+}
+/* line 23, ../sass/_partial/menu.scss */
+.navbar-default .container li a:hover {
+  color: #fff;
+  background-color: #f77e5c;
+}
+/* line 30, ../sass/_partial/menu.scss */
+.navbar-default .container .active a {
+  background-color: #f77e5c;
+  color: #fff;
+}
+/* line 33, ../sass/_partial/menu.scss */
+.navbar-default .container .active a:hover {
+  background-color: #f77e5c;
+}
