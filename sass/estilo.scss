@@ -1,4 +1,22 @@
+$menu: #f0ad4e;
+$menu-active: #F3C27C;
+$color-font: #333;
+
 #myCarousel{
   margin-bottom: 60px;
 }
 
+.col-md-4{
+  text-align: center;
+}
+
+.navbar-default{
+  background-color: $menu;
+}
+.navbar-default .navbar-nav > li > a{
+  color: $color-font;
+}
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
+  background-color: $menu-active;
+  color: $color-font;
+}

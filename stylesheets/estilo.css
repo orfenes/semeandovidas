@@ -1,4 +1,25 @@
-/* line 1, ../sass/estilo.scss */
+/* line 5, ../sass/estilo.scss */
 #myCarousel {
   margin-bottom: 60px;
+}
+
+/* line 9, ../sass/estilo.scss */
+.col-md-4 {
+  text-align: center;
+}
+
+/* line 13, ../sass/estilo.scss */
+.navbar-default {
+  background-color: #f0ad4e;
+}
+
+/* line 16, ../sass/estilo.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #333;
+}
+
+/* line 19, ../sass/estilo.scss */
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
+  background-color: #F3C27C;
+  color: #333;
 }
