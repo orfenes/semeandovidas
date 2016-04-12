@@ -9,14 +9,3 @@ $color-font: #333;
 .col-md-4{
   text-align: center;
 }
-
-.navbar-default{
-  background-color: $menu;
-}
-.navbar-default .navbar-nav > li > a{
-  color: $color-font;
-}
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover{
-  background-color: $menu-active;
-  color: $color-font;
-}
