@@ -1,11 +1,66 @@
-$menu: #f0ad4e;
-$menu-active: #F3C27C;
-$color-font: #333;
+$orange: #f3663b;
+$blue: #4acbf3;
+$yellow: #ffce12;
+$green: #92c345;
+$purple: #8177b4;
+$white: #fff;
 
+//menu
+.navbar-default{
+  background-color: $blue;
+}
+.navbar-default .navbar-nav > li > a{
+  color: $white;
+}
+
+
+//carrosel
 #myCarousel{
-  margin-bottom: 60px;
+  margin-bottom: 40px;
 }
 
 .col-md-4{
   text-align: center;
+}
+
+//setas
+.glyphicon-chevron-left, .glyphicon-chevron-right{
+  &:before{
+    color: $green;
+  }
+}
+
+.carousel-indicators .active{
+  background-color: $green;
+}
+
+//chamadas
+.row.chamadas{
+  margin-top: 30px;
+}
+
+.chamada-info{
+  color: $purple;
+}
+
+.text-info{
+ color: $purple;
+}
+
+.featurette-heading{
+  color: $green;
+}
+
+.text-muted{
+  color: $green;
+}
+
+.lead{
+  color: #333;
+}
+
+//botoes
+.btn.btn-default{
+  background-color: $green;
+  color: $white;
 }

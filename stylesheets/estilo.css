@@ -1,25 +1,65 @@
-/* line 5, ../sass/estilo.scss */
-#myCarousel {
-  margin-bottom: 60px;
+/* line 9, ../sass/estilo.scss */
+.navbar-default {
+  background-color: #4acbf3;
 }
 
-/* line 9, ../sass/estilo.scss */
+/* line 12, ../sass/estilo.scss */
+.navbar-default .navbar-nav > li > a {
+  color: #fff;
+}
+
+/* line 18, ../sass/estilo.scss */
+#myCarousel {
+  margin-bottom: 40px;
+}
+
+/* line 22, ../sass/estilo.scss */
 .col-md-4 {
   text-align: center;
 }
 
-/* line 13, ../sass/estilo.scss */
-.navbar-default {
-  background-color: #f0ad4e;
+/* line 28, ../sass/estilo.scss */
+.glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
+  color: #92c345;
 }
 
-/* line 16, ../sass/estilo.scss */
-.navbar-default .navbar-nav > li > a {
+/* line 33, ../sass/estilo.scss */
+.carousel-indicators .active {
+  background-color: #92c345;
+}
+
+/* line 38, ../sass/estilo.scss */
+.row.chamadas {
+  margin-top: 30px;
+}
+
+/* line 42, ../sass/estilo.scss */
+.chamada-info {
+  color: #8177b4;
+}
+
+/* line 46, ../sass/estilo.scss */
+.text-info {
+  color: #8177b4;
+}
+
+/* line 50, ../sass/estilo.scss */
+.featurette-heading {
+  color: #92c345;
+}
+
+/* line 54, ../sass/estilo.scss */
+.text-muted {
+  color: #92c345;
+}
+
+/* line 58, ../sass/estilo.scss */
+.lead {
   color: #333;
 }
 
-/* line 19, ../sass/estilo.scss */
-.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover {
-  background-color: #F3C27C;
-  color: #333;
+/* line 63, ../sass/estilo.scss */
+.btn.btn-default {
+  background-color: #92c345;
+  color: #fff;
 }
