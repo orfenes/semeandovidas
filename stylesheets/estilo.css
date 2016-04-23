@@ -8,58 +8,137 @@
   color: #fff;
 }
 
-/* line 18, ../sass/estilo.scss */
+/* line 17, ../sass/estilo.scss */
+.rede-social a {
+  background-color: #fff;
+  border-radius: 50px;
+  width: 10px;
+  height: 10px;
+  text-align: center;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+/* line 25, ../sass/estilo.scss */
+.rede-social a:hover {
+  background-color: #fff !important;
+}
+/* line 29, ../sass/estilo.scss */
+.rede-social .fa-facebook {
+  display: block;
+  position: absolute;
+  top: 8px;
+  left: 11px;
+  color: #4acbf3;
+}
+/* line 36, ../sass/estilo.scss */
+.rede-social .fa-youtube {
+  font-size: 19px;
+  display: block;
+  position: absolute;
+  top: 7px;
+  left: 8px;
+  color: #4acbf3;
+}
+
+/* line 46, ../sass/estilo.scss */
+.youtube {
+  margin-right: 20px;
+}
+
+/* line 52, ../sass/estilo.scss */
 #myCarousel {
   margin-bottom: 40px;
 }
+/* line 55, ../sass/estilo.scss */
+#myCarousel .carousel-inner {
+  max-height: 540px;
+  position: relative;
+}
+/* line 60, ../sass/estilo.scss */
+#myCarousel .text-image {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  position: absolute;
+  bottom: 70px;
+  color: #fff;
+  font-size: 30px;
+  left: 37px;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+}
 
-/* line 22, ../sass/estilo.scss */
+@media screen and (min-width: 768px) {
+  /* line 72, ../sass/estilo.scss */
+  .carousel-control .glyphicon-chevron-left {
+    margin-left: -50px;
+  }
+
+  /* line 75, ../sass/estilo.scss */
+  .carousel-control .glyphicon-chevron-right {
+    margin-right: -50px;
+  }
+}
+@media (min-width: 768px) {
+  /* line 80, ../sass/estilo.scss */
+  .navbar-right {
+    display: block !important;
+  }
+}
+/* line 85, ../sass/estilo.scss */
+.navbar-right {
+  display: none;
+}
+
+/* line 89, ../sass/estilo.scss */
 .col-md-4 {
   text-align: center;
 }
 
-/* line 28, ../sass/estilo.scss */
+/* line 95, ../sass/estilo.scss */
 .glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
   color: #92c345;
 }
 
-/* line 33, ../sass/estilo.scss */
+/* line 100, ../sass/estilo.scss */
 .carousel-indicators .active {
   background-color: #92c345;
 }
 
-/* line 38, ../sass/estilo.scss */
+/* line 105, ../sass/estilo.scss */
 .row.chamadas {
   margin-top: 30px;
 }
 
-/* line 42, ../sass/estilo.scss */
+/* line 109, ../sass/estilo.scss */
 .chamada-info {
   color: #8177b4;
 }
 
-/* line 46, ../sass/estilo.scss */
+/* line 113, ../sass/estilo.scss */
 .text-info {
   color: #8177b4;
 }
 
-/* line 50, ../sass/estilo.scss */
+/* line 117, ../sass/estilo.scss */
 .featurette-heading {
   color: #92c345;
 }
 
-/* line 54, ../sass/estilo.scss */
+/* line 121, ../sass/estilo.scss */
 .text-muted {
   color: #92c345;
 }
 
-/* line 58, ../sass/estilo.scss */
+/* line 125, ../sass/estilo.scss */
 .lead {
   color: #333;
 }
 
-/* line 63, ../sass/estilo.scss */
+/* line 130, ../sass/estilo.scss */
 .btn.btn-default {
   background-color: #92c345;
   color: #fff;
+}
+
+/* line 135, ../sass/estilo.scss */
+.link-comum {
+  text-decoration: none !important;
 }
