@@ -1,9 +1,12 @@
-$orange: #f3663b;
+$orange: #f94000;
 $blue: #4acbf3;
 $yellow: #ffce12;
 $green: #92c345;
 $purple: #8177b4;
 $white: #fff;
+
+
+html, body {height:100%;}
 
 //menu
 .navbar-default{
@@ -11,6 +14,10 @@ $white: #fff;
 }
 .navbar-default .navbar-nav > li > a{
   color: $white;
+}
+
+.container.first{
+  height: 100%;
 }
 
 .rede-social{
@@ -82,6 +89,7 @@ $white: #fff;
   }
 }
 
+
 .navbar-right{
   display: none;
 }
@@ -107,7 +115,7 @@ $white: #fff;
 }
 
 .chamada-info{
-  color: $purple;
+  color: $orange;
 }
 
 .text-info{
@@ -134,4 +142,71 @@ $white: #fff;
 
 .link-comum{
   text-decoration: none !important
+}
+
+// formulario
+@media (min-width: 992px){
+  .col-md-8.email{
+    float: none;
+    margin: 0 auto;    
+    height: 100%;
+  }
+  .embed-responsive{
+    width: 420px;
+    height: 315px;  
+    margin: 0 auto;
+    padding-bottom: 0px;  
+  }
+}
+
+
+
+.btn-default{
+  margin-top: 10px;
+}
+
+.form-control{
+  margin-bottom: 15px;
+}
+
+
+
+//conteudo
+.paragrafo{
+  margin-left: 20px;
+}
+
+.video{
+  display: block;
+  margin: 0 auto;
+}
+
+.conteudo-img{
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  margin-top: 40px;
+}
+
+.texto{
+  font-size: 16px;
+}
+
+.texto-conteudo{
+  font-size: 16px;
+  text-indent: 21px;
+  text-align: justify;  
+}
+
+.texto-conteudo.lista{
+  text-indent: 0px;
+}
+
+.quebra{
+  display: block;
+  clear: both;
+}
+
+footer{
+  color: $blue; 
 }

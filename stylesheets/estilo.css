@@ -1,14 +1,24 @@
 /* line 9, ../sass/estilo.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 12, ../sass/estilo.scss */
 .navbar-default {
   background-color: #4acbf3;
 }
 
-/* line 12, ../sass/estilo.scss */
+/* line 15, ../sass/estilo.scss */
 .navbar-default .navbar-nav > li > a {
   color: #fff;
 }
 
-/* line 17, ../sass/estilo.scss */
+/* line 19, ../sass/estilo.scss */
+.container.first {
+  height: 100%;
+}
+
+/* line 24, ../sass/estilo.scss */
 .rede-social a {
   background-color: #fff;
   border-radius: 50px;
@@ -18,11 +28,11 @@
   margin-left: 10px;
   margin-top: 10px;
 }
-/* line 25, ../sass/estilo.scss */
+/* line 32, ../sass/estilo.scss */
 .rede-social a:hover {
   background-color: #fff !important;
 }
-/* line 29, ../sass/estilo.scss */
+/* line 36, ../sass/estilo.scss */
 .rede-social .fa-facebook {
   display: block;
   position: absolute;
@@ -30,7 +40,7 @@
   left: 11px;
   color: #4acbf3;
 }
-/* line 36, ../sass/estilo.scss */
+/* line 43, ../sass/estilo.scss */
 .rede-social .fa-youtube {
   font-size: 19px;
   display: block;
@@ -40,21 +50,21 @@
   color: #4acbf3;
 }
 
-/* line 46, ../sass/estilo.scss */
+/* line 53, ../sass/estilo.scss */
 .youtube {
   margin-right: 20px;
 }
 
-/* line 52, ../sass/estilo.scss */
+/* line 59, ../sass/estilo.scss */
 #myCarousel {
   margin-bottom: 40px;
 }
-/* line 55, ../sass/estilo.scss */
+/* line 62, ../sass/estilo.scss */
 #myCarousel .carousel-inner {
   max-height: 540px;
   position: relative;
 }
-/* line 60, ../sass/estilo.scss */
+/* line 67, ../sass/estilo.scss */
 #myCarousel .text-image {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   position: absolute;
@@ -66,79 +76,152 @@
 }
 
 @media screen and (min-width: 768px) {
-  /* line 72, ../sass/estilo.scss */
+  /* line 79, ../sass/estilo.scss */
   .carousel-control .glyphicon-chevron-left {
     margin-left: -50px;
   }
 
-  /* line 75, ../sass/estilo.scss */
+  /* line 82, ../sass/estilo.scss */
   .carousel-control .glyphicon-chevron-right {
     margin-right: -50px;
   }
 }
 @media (min-width: 768px) {
-  /* line 80, ../sass/estilo.scss */
+  /* line 87, ../sass/estilo.scss */
   .navbar-right {
     display: block !important;
   }
 }
-/* line 85, ../sass/estilo.scss */
+/* line 93, ../sass/estilo.scss */
 .navbar-right {
   display: none;
 }
 
-/* line 89, ../sass/estilo.scss */
+/* line 97, ../sass/estilo.scss */
 .col-md-4 {
   text-align: center;
 }
 
-/* line 95, ../sass/estilo.scss */
+/* line 103, ../sass/estilo.scss */
 .glyphicon-chevron-left:before, .glyphicon-chevron-right:before {
   color: #92c345;
 }
 
-/* line 100, ../sass/estilo.scss */
+/* line 108, ../sass/estilo.scss */
 .carousel-indicators .active {
   background-color: #92c345;
 }
 
-/* line 105, ../sass/estilo.scss */
+/* line 113, ../sass/estilo.scss */
 .row.chamadas {
   margin-top: 30px;
 }
 
-/* line 109, ../sass/estilo.scss */
+/* line 117, ../sass/estilo.scss */
 .chamada-info {
-  color: #8177b4;
+  color: #f94000;
 }
 
-/* line 113, ../sass/estilo.scss */
+/* line 121, ../sass/estilo.scss */
 .text-info {
   color: #8177b4;
 }
 
-/* line 117, ../sass/estilo.scss */
+/* line 125, ../sass/estilo.scss */
 .featurette-heading {
   color: #92c345;
 }
 
-/* line 121, ../sass/estilo.scss */
+/* line 129, ../sass/estilo.scss */
 .text-muted {
   color: #92c345;
 }
 
-/* line 125, ../sass/estilo.scss */
+/* line 133, ../sass/estilo.scss */
 .lead {
   color: #333;
 }
 
-/* line 130, ../sass/estilo.scss */
+/* line 138, ../sass/estilo.scss */
 .btn.btn-default {
   background-color: #92c345;
   color: #fff;
 }
 
-/* line 135, ../sass/estilo.scss */
+/* line 143, ../sass/estilo.scss */
 .link-comum {
   text-decoration: none !important;
+}
+
+@media (min-width: 992px) {
+  /* line 149, ../sass/estilo.scss */
+  .col-md-8 {
+    float: none;
+    margin: 0 auto;
+    height: 100%;
+  }
+
+  /* line 154, ../sass/estilo.scss */
+  .embed-responsive {
+    width: 420px;
+    height: 315px;
+    margin: 0 auto;
+    padding-bottom: 0px;
+  }
+}
+/* line 164, ../sass/estilo.scss */
+.btn-default {
+  margin-top: 10px;
+}
+
+/* line 168, ../sass/estilo.scss */
+.form-control {
+  margin-bottom: 15px;
+}
+
+/* line 175, ../sass/estilo.scss */
+.paragrafo {
+  margin-left: 20px;
+}
+
+/* line 179, ../sass/estilo.scss */
+.video {
+  display: block;
+  margin: 0 auto;
+}
+
+/* line 184, ../sass/estilo.scss */
+.conteudo-img {
+  margin: 0 auto;
+  display: block;
+  width: 500px;
+  margin-top: 40px;
+}
+
+/* line 191, ../sass/estilo.scss */
+.texto {
+  font-size: 16px;
+}
+
+/* line 195, ../sass/estilo.scss */
+.texto-conteudo {
+  font-size: 16px;
+  text-indent: 21px;
+  text-align: justify;
+}
+
+/* line 201, ../sass/estilo.scss */
+.texto-conteudo.lista {
+  text-indent: 0px;
+}
+
+/* line 205, ../sass/estilo.scss */
+.quebra {
+  display: block;
+  clear: both;
+}
+
+/* line 210, ../sass/estilo.scss */
+footer {
+  color: #4acbf3;
 }
